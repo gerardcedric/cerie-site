@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#e9f2ff"/>
+  <rect x="40" y="40" width="720" height="420" rx="12" fill="#fff" stroke="#dbeeff"/>
+  <text x="400" y="260" font-size="28" fill="#4b5563" text-anchor="middle" font-family="Arial">Installation électrique - Exemple</text>
+</svg>
