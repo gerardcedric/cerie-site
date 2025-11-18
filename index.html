@@ -1,46 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
+<link rel="preload" as="image" href="images/realisation001.jpg">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>CERIE électricité - Installations, Dépannages et Rénovation en Seine-et-Marne</title>
+  <title>CERIE Électricité – Électricien à Lagny-sur-Marne (77400) – Dépannage, rénovation, installation</title>
 
-  <meta name="description" content="électricien en Seine-et-Marne : installations neuves, rénovation, dépannage, borne de recharge, domotique et mise en conformité. CERIE électricité, électricité général.">
+  <meta name="description" content="CERIE Électricité : électricien à Lagny-sur-Marne (77400) – installations électriques, rénovation, dépannage urgent, bornes de recharge IRVE, domotique et conformité NF C 15-100. Intervention rapide dans toute la Seine-et-Marne (77).">
 
-  <meta name="keywords" content="électricien, Seine-et-Marne, installation électrique, rénovation, borne de recharge, dépannage électrique, domotique, conformité électrique">
+  <meta name="keywords" content="électricien Lagny-sur-Marne, électricien 77400, dépannage électrique 77, borne de recharge IRVE Lagny, installation électrique Seine-et-Marne, rénovation électrique, domotique 77">
 
   <link rel="canonical" href="https://gerardcedric.github.io/cerie-site/">
-  <meta property="og:title" content="CERIE électricité - Votre électricien en Seine-et-Marne">
-  <meta property="og:description" content="Installations, rénovation, dépannage, borne de recharge, domotique. Intervention rapide CERIE.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="CERIE Électricité – Électricien à Lagny-sur-Marne (77400)">
+  <meta property="og:description" content="Installations, rénovation, dépannage, bornes IRVE, domotique. Intervention rapide dans tout le 77.">
   <meta property="og:image" content="https://gerardcedric.github.io/cerie-site/images/realisation001.jpg">
+  <meta property="og:url" content="https://gerardcedric.github.io/cerie-site/">
   <meta property="og:type" content="website">
 
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+  <!-- JSON-LD avancé : LocalBusiness + Service + Zone d’intervention -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Electrician",
-    "name": "CERIE électricité",
-    "image": "images/logo.svg",
+    "name": "CERIE Électricité",
+    "image": "https://gerardcedric.github.io/cerie-site/images/logo.svg",
+    "url": "https://gerardcedric.github.io/cerie-site/",
+    "telephone": "0621531432",
+    "priceRange": "€€",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "49 rue Pierre Semard",
+      "streetAddress": "49 rue Pierre Sémard",
       "addressLocality": "Lagny-sur-Marne",
       "postalCode": "77400",
       "addressCountry": "FR"
     },
-    "telephone": "0621531432",
-    "priceRange": "â‚¬â‚¬",
-    "description": "Installations électriques, rénovation, dépannage, borne de recharge, domotique en Seine-et-Marne."
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.876,
+        "longitude": 2.709
+      },
+      "geoRadius": "12000"
+    },
+    "servesCuisine": "",
+    "description": "Électricien disponible pour installations, rénovations, dépannages, bornes IRVE, domotique et mises en conformité NF C 15-100.",
+    "serviceType": [
+      "Installation électrique",
+      "Rénovation installation électrique",
+      "Dépannage électrique urgent",
+      "Installation borne de recharge IRVE",
+      "Domotique et maison connectée",
+      "Mise en conformité NF C 15-100"
+    ]
   }
   </script>
-
-  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css" />
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 </head>
 
 <body>
@@ -48,27 +79,35 @@
 <header class="header">
   <div class="container header-flex">
     <div class="header-logo">
-      <img src="images/logo.svg" alt="CERIE Electricité">
+      <img src="images/logo.svg" alt="Logo CERIE Électricité">
       <div class="header-title">
-        <h1>CERIE électricité</h1>
-        <p>L'excellence électrique au service de vos projets</p>
+        <h1>CERIE Électricité</h1>
+        <p>L’excellence électrique au service de vos projets</p>
       </div>
     </div>
+
     <nav class="nav" id="nav">
       <a href="#services">Services</a>
+      <a href="#pourquoi">Pourquoi nous ?</a>
       <a href="#realisations">Réalisations</a>
       <a href="#avis">Avis</a>
       <a href="#zone">Zone</a>
       <a href="#contact" class="btn-nav">Contact</a>
     </nav>
-    <button class="nav-toggle" id="navToggle">â˜°</button>
+
+    <button class="nav-toggle" id="navToggle">☰</button>
   </div>
 </header>
 
 <section class="hero">
   <div class="container hero-content">
-    <h2>Votre spécialiste en installation électrique</h2>
-    <p class="hero-text">Intervention rapide - Installation, rénovation, dépannage, borne de recharge & domotique</p>
+    <h2>Votre électricien à Lagny-sur-Marne et en Seine-et-Marne (77)</h2>
+    <p class="hero-text">
+      Installations électriques, rénovation, dépannage urgent, borne de recharge IRVE 
+      et domotique. Intervention rapide à Lagny-sur-Marne, Thorigny, Pomponne, Montévrain, 
+      Serris, Chessy, Magny-le-Hongre et Bailly Rommainvilliers.
+    </p>
+
     <div class="hero-buttons">
       <a href="#contact" class="btn-primary">Demander un devis</a>
       <a href="#services" class="btn-outline">Voir nos services</a>
@@ -79,14 +118,34 @@
 <section class="section" id="services">
   <div class="container">
     <h2>Nos services</h2>
+    <p class="section-sub">
+      CERIE Électricité intervient à Lagny-sur-Marne et dans toutes les communes voisines 
+      de Marne-la-Vallée (77).
+    </p>
+
     <div class="services-grid">
-      <div class="card">⚡ Installations neuves</div>
-      <div class="card">🏚 Rénovation électrique</div>
-      <div class="card">🚨 Dépannage urgent</div>
-      <div class="card">📱 Domotique (maison connectée)</div>
-      <div class="card">✔️¸ Mise en conformité</div>
-      <div class="card">🔌 Bornes de recharge électrique</div>
-      <div class="card">🔒 Contrôle d'accès</div>
+      <div class="card">⚡ Installations électriques neuves (logements & commerces)</div>
+      <div class="card">🏚 Rénovation complète d’installations anciennes</div>
+      <div class="card">🚨 Dépannage électrique urgent 7j/7 à Lagny-sur-Marne</div>
+      <div class="card">📱 Domotique : éclairage, volets, chauffage intelligent</div>
+      <div class="card">✔️ Mise en conformité NF C 15-100</div>
+      <div class="card">🔌 Installation de bornes IRVE (véhicules électriques)</div>
+      <div class="card">🔒 Contrôle d’accès, interphones et visiophones</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pourquoi">
+  <div class="container">
+    <h2>Pourquoi choisir CERIE Électricité ?</h2>
+
+    <div class="services-grid">
+      <div class="card">🔧 Électricien qualifié avec 10+ ans d’expérience</div>
+      <div class="card">⚡ Intervention rapide à Lagny & Marne-la-Vallée</div>
+      <div class="card">📜 Garantie décennale & normes NF C 15-100</div>
+      <div class="card">⭐ Entreprise locale & fiable</div>
+      <div class="card">💬 Conseils personnalisés & devis gratuits</div>
+      <div class="card">🔍 Travail propre & finitions haut de gamme</div>
     </div>
   </div>
 </section>
@@ -94,40 +153,46 @@
 <section class="section" id="realisations">
   <div class="container">
     <h2>Nos réalisations</h2>
-    <p class="section-sub">Cliquez sur une photo pour l'agrandir</p>
+    <p class="section-sub">Cliquez sur une photo pour l’agrandir</p>
 
     <div class="swiper realisations-swiper">
-      <div class="swiper-wrapper">        <div class='swiper-slide'><a href='images/realisation001.jpg' class='glightbox'><img loading='lazy' src='images/realisation001.jpg' alt='RÃ©alisation CERIE 1'></a></div>
-        <div class='swiper-slide'><a href='images/realisation002.jpg' class='glightbox'><img loading='lazy' src='images/realisation002.jpg' alt='RÃ©alisation CERIE 2'></a></div>
-        <div class='swiper-slide'><a href='images/realisation003.jpg' class='glightbox'><img loading='lazy' src='images/realisation003.jpg' alt='RÃ©alisation CERIE 3'></a></div>
-        <div class='swiper-slide'><a href='images/realisation004.jpg' class='glightbox'><img loading='lazy' src='images/realisation004.jpg' alt='RÃ©alisation CERIE 4'></a></div>
-        <div class='swiper-slide'><a href='images/realisation005.jpg' class='glightbox'><img loading='lazy' src='images/realisation005.jpg' alt='RÃ©alisation CERIE 5'></a></div>
-        <div class='swiper-slide'><a href='images/realisation006.jpg' class='glightbox'><img loading='lazy' src='images/realisation006.jpg' alt='RÃ©alisation CERIE 6'></a></div>
-        <div class='swiper-slide'><a href='images/realisation007.jpg' class='glightbox'><img loading='lazy' src='images/realisation007.jpg' alt='RÃ©alisation CERIE 7'></a></div>
-        <div class='swiper-slide'><a href='images/realisation008.jpg' class='glightbox'><img loading='lazy' src='images/realisation008.jpg' alt='RÃ©alisation CERIE 8'></a></div>
-        <div class='swiper-slide'><a href='images/realisation009.jpg' class='glightbox'><img loading='lazy' src='images/realisation009.jpg' alt='RÃ©alisation CERIE 9'></a></div>
-        <div class='swiper-slide'><a href='images/realisation010.jpg' class='glightbox'><img loading='lazy' src='images/realisation010.jpg' alt='RÃ©alisation CERIE 10'></a></div>
-        <div class='swiper-slide'><a href='images/realisation011.jpg' class='glightbox'><img loading='lazy' src='images/realisation011.jpg' alt='RÃ©alisation CERIE 11'></a></div>
-        <div class='swiper-slide'><a href='images/realisation012.jpg' class='glightbox'><img loading='lazy' src='images/realisation012.jpg' alt='RÃ©alisation CERIE 12'></a></div>
-        <div class='swiper-slide'><a href='images/realisation013.jpg' class='glightbox'><img loading='lazy' src='images/realisation013.jpg' alt='RÃ©alisation CERIE 13'></a></div>
-        <div class='swiper-slide'><a href='images/realisation014.jpg' class='glightbox'><img loading='lazy' src='images/realisation014.jpg' alt='RÃ©alisation CERIE 14'></a></div>
-        <div class='swiper-slide'><a href='images/realisation015.jpg' class='glightbox'><img loading='lazy' src='images/realisation015.jpg' alt='RÃ©alisation CERIE 15'></a></div>
-        <div class='swiper-slide'><a href='images/realisation016.jpg' class='glightbox'><img loading='lazy' src='images/realisation016.jpg' alt='RÃ©alisation CERIE 16'></a></div>
-        <div class='swiper-slide'><a href='images/realisation017.jpg' class='glightbox'><img loading='lazy' src='images/realisation017.jpg' alt='RÃ©alisation CERIE 17'></a></div>
-        <div class='swiper-slide'><a href='images/realisation018.jpg' class='glightbox'><img loading='lazy' src='images/realisation018.jpg' alt='RÃ©alisation CERIE 18'></a></div>
-        <div class='swiper-slide'><a href='images/realisation019.jpg' class='glightbox'><img loading='lazy' src='images/realisation019.jpg' alt='RÃ©alisation CERIE 19'></a></div>
-        <div class='swiper-slide'><a href='images/realisation020.jpg' class='glightbox'><img loading='lazy' src='images/realisation020.jpg' alt='RÃ©alisation CERIE 20'></a></div>
-        <div class='swiper-slide'><a href='images/realisation021.jpg' class='glightbox'><img loading='lazy' src='images/realisation021.jpg' alt='RÃ©alisation CERIE 21'></a></div>
-        <div class='swiper-slide'><a href='images/realisation022.jpg' class='glightbox'><img loading='lazy' src='images/realisation022.jpg' alt='RÃ©alisation CERIE 22'></a></div>
-        <div class='swiper-slide'><a href='images/realisation023.jpg' class='glightbox'><img loading='lazy' src='images/realisation023.jpg' alt='RÃ©alisation CERIE 23'></a></div>
-        <div class='swiper-slide'><a href='images/realisation024.jpg' class='glightbox'><img loading='lazy' src='images/realisation024.jpg' alt='RÃ©alisation CERIE 24'></a></div>
-        <div class='swiper-slide'><a href='images/realisation025.jpg' class='glightbox'><img loading='lazy' src='images/realisation025.jpg' alt='RÃ©alisation CERIE 25'></a></div>
-        <div class='swiper-slide'><a href='images/realisation026.jpg' class='glightbox'><img loading='lazy' src='images/realisation026.jpg' alt='RÃ©alisation CERIE 26'></a></div>
-        <div class='swiper-slide'><a href='images/realisation027.jpg' class='glightbox'><img loading='lazy' src='images/realisation027.jpg' alt='RÃ©alisation CERIE 27'></a></div>
-        <div class='swiper-slide'><a href='images/realisation028.jpg' class='glightbox'><img loading='lazy' src='images/realisation028.jpg' alt='RÃ©alisation CERIE 28'></a></div>
-        <div class='swiper-slide'><a href='images/realisation029.jpg' class='glightbox'><img loading='lazy' src='images/realisation029.jpg' alt='RÃ©alisation CERIE 29'></a></div>
-        <div class='swiper-slide'><a href='images/realisation030.jpg' class='glightbox'><img loading='lazy' src='images/realisation030.jpg' alt='RÃ©alisation CERIE 30'></a></div>
-      </div>
+      <div class="swiper-wrapper">
+  <div class="swiper-slide"><a href="images/realisation001.jpg" class="glightbox"><img loading="lazy" src="images/realisation001.jpg" alt="Réalisation électrique 1"></a></div>
+  <div class="swiper-slide"><a href="images/realisation002.jpg" class="glightbox"><img loading="lazy" src="images/realisation002.jpg" alt="Réalisation électrique 2"></a></div>
+  <div class="swiper-slide"><a href="images/realisation003.jpg" class="glightbox"><img loading="lazy" src="images/realisation003.jpg" alt="Réalisation électrique 3"></a></div>
+  <div class="swiper-slide"><a href="images/realisation004.jpg" class="glightbox"><img loading="lazy" src="images/realisation004.jpg" alt="Réalisation électrique 4"></a></div>
+  <div class="swiper-slide"><a href="images/realisation005.jpg" class="glightbox"><img loading="lazy" src="images/realisation005.jpg" alt="Réalisation électrique 5"></a></div>
+
+  <div class="swiper-slide"><a href="images/realisation006.jpg" class="glightbox"><img loading="lazy" src="images/realisation006.jpg" alt="Réalisation électrique 6"></a></div>
+  <div class="swiper-slide"><a href="images/realisation007.jpg" class="glightbox"><img loading="lazy" src="images/realisation007.jpg" alt="Réalisation électrique 7"></a></div>
+  <div class="swiper-slide"><a href="images/realisation008.jpg" class="glightbox"><img loading="lazy" src="images/realisation008.jpg" alt="Réalisation électrique 8"></a></div>
+  <div class="swiper-slide"><a href="images/realisation009.jpg" class="glightbox"><img loading="lazy" src="images/realisation009.jpg" alt="Réalisation électrique 9"></a></div>
+  <div class="swiper-slide"><a href="images/realisation010.jpg" class="glightbox"><img loading="lazy" src="images/realisation010.jpg" alt="Réalisation électrique 10"></a></div>
+
+  <div class="swiper-slide"><a href="images/realisation011.jpg" class="glightbox"><img loading="lazy" src="images/realisation011.jpg" alt="Réalisation électrique 11"></a></div>
+  <div class="swiper-slide"><a href="images/realisation012.jpg" class="glightbox"><img loading="lazy" src="images/realisation012.jpg" alt="Réalisation électrique 12"></a></div>
+  <div class="swiper-slide"><a href="images/realisation013.jpg" class="glightbox"><img loading="lazy" src="images/realisation013.jpg" alt="Réalisation électrique 13"></a></div>
+  <div class="swiper-slide"><a href="images/realisation014.jpg" class="glightbox"><img loading="lazy" src="images/realisation014.jpg" alt="Réalisation électrique 14"></a></div>
+  <div class="swiper-slide"><a href="images/realisation015.jpg" class="glightbox"><img loading="lazy" src="images/realisation015.jpg" alt="Réalisation électrique 15"></a></div>
+
+  <div class="swiper-slide"><a href="images/realisation016.jpg" class="glightbox"><img loading="lazy" src="images/realisation016.jpg" alt="Réalisation électrique 16"></a></div>
+  <div class="swiper-slide"><a href="images/realisation017.jpg" class="glightbox"><img loading="lazy" src="images/realisation017.jpg" alt="Réalisation électrique 17"></a></div>
+  <div class="swiper-slide"><a href="images/realisation018.jpg" class="glightbox"><img loading="lazy" src="images/realisation018.jpg" alt="Réalisation électrique 18"></a></div>
+  <div class="swiper-slide"><a href="images/realisation019.jpg" class="glightbox"><img loading="lazy" src="images/realisation019.jpg" alt="Réalisation électrique 19"></a></div>
+  <div class="swiper-slide"><a href="images/realisation020.jpg" class="glightbox"><img loading="lazy" src="images/realisation020.jpg" alt="Réalisation électrique 20"></a></div>
+
+  <div class="swiper-slide"><a href="images/realisation021.jpg" class="glightbox"><img loading="lazy" src="images/realisation021.jpg" alt="Réalisation électrique 21"></a></div>
+  <div class="swiper-slide"><a href="images/realisation022.jpg" class="glightbox"><img loading="lazy" src="images/realisation022.jpg" alt="Réalisation électrique 22"></a></div>
+  <div class="swiper-slide"><a href="images/realisation023.jpg" class="glightbox"><img loading="lazy" src="images/realisation023.jpg" alt="Réalisation électrique 23"></a></div>
+  <div class="swiper-slide"><a href="images/realisation024.jpg" class="glightbox"><img loading="lazy" src="images/realisation024.jpg" alt="Réalisation électrique 24"></a></div>
+  <div class="swiper-slide"><a href="images/realisation025.jpg" class="glightbox"><img loading="lazy" src="images/realisation025.jpg" alt="Réalisation électrique 25"></a></div>
+
+  <div class="swiper-slide"><a href="images/realisation026.jpg" class="glightbox"><img loading="lazy" src="images/realisation026.jpg" alt="Réalisation électrique 26"></a></div>
+  <div class="swiper-slide"><a href="images/realisation027.jpg" class="glightbox"><img loading="lazy" src="images/realisation027.jpg" alt="Réalisation électrique 27"></a></div>
+  <div class="swiper-slide"><a href="images/realisation028.jpg" class="glightbox"><img loading="lazy" src="images/realisation028.jpg" alt="Réalisation électrique 28"></a></div>
+  <div class="swiper-slide"><a href="images/realisation029.jpg" class="glightbox"><img loading="lazy" src="images/realisation029.jpg" alt="Réalisation électrique 29"></a></div>
+  <div class="swiper-slide"><a href="images/realisation030.jpg" class="glightbox"><img loading="lazy" src="images/realisation030.jpg" alt="Réalisation électrique 30"></a></div>
+</div>
 
       <div class="swiper-pagination"></div>
       <div class="swiper-button-next"></div>
@@ -139,18 +204,30 @@
 <section class="section" id="avis">
   <div class="container">
     <h2>Avis clients</h2>
+
     <div class="avis-buttons">
       <a class="btn-primary" href="https://www.google.com/maps/place/?q=place_id:ChIJT6wK2_4J5kcR9HmR6uCRvLU" target="_blank">⭐ Lire les avis</a>
       <a class="btn-outline" href="https://search.google.com/local/writereview?placeid=ChIJT6wK2_4J5kcR9HmR6uCRvLU" target="_blank">✍️ Laisser un avis</a>
     </div>
+
+    <p class="section-sub">
+      Vos avis nous aident à développer notre présence locale et à garantir la qualité de nos prestations.
+    </p>
   </div>
 </section>
 
-<section class="section section-light" id="zone">
+<section class="section" id="zone">
   <div class="container">
-    <h2>Zone d'intervention</h2>
+    <h2>Zone d’intervention</h2>
+
+    <p class="section-sub">
+      Nous intervenons à Lagny-sur-Marne, Thorigny-sur-Marne, Pomponne, Dampmart, Montévrain, Bussy-Saint-Georges, Chessy,
+      Saint-Thibault-des-Vignes, Vaires-sur-Marne, Secteur du Val d'europe, et dans toute la Seine-et-Marne (77).
+    </p>
+
     <div class="map">
-      <iframe src="https://www.google.com/maps?q=49+rue+Pierre+Semard+Lagny+sur+Marne&output=embed" width="100%" height="350" loading="lazy"></iframe>
+      <iframe src="https://www.google.com/maps?q=49+rue+Pierre+Semard+Lagny-sur-Marne&output=embed"
+        width="100%" height="350" loading="lazy"></iframe>
     </div>
   </div>
 </section>
@@ -176,8 +253,9 @@
 
 <footer class="footer">
   <div class="container">
-    <p>© 2025 CERIE électricité - Tous droits réservés</p>
-    <p>SIRET : 922 843 796 00017  SASU au capital de 1000€ - Directeur : Cédric GERARD</p>
+    <p>CERIE Électricité – Électricien à Lagny-sur-Marne (77400)</p>
+    <p>SIRET : 922 843 796 00017 — SASU au capital de 1000 € — Directeur : Cédric GERARD</p>
+    <p>Installations, rénovations, dépannages, bornes IRVE & domotique en Seine-et-Marne.</p>
   </div>
 </footer>
 
@@ -187,6 +265,3 @@
 
 </body>
 </html>
-
-
-
