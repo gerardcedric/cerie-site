@@ -1,15 +1,60 @@
-const nav=document.getElementById('nav');
-const navToggle=document.getElementById('navToggle');
-navToggle.addEventListener('click',()=>{nav.classList.toggle('show')});
+// =========================
+// MENU MOBILE
+// =========================
+document.addEventListener("DOMContentLoaded", function () {
+  const nav = document.getElementById("nav");
+  const navToggle = document.getElementById("navToggle");
 
-document.addEventListener('DOMContentLoaded',()=>{
- new Swiper('.realisations-swiper',{
-   loop:true,
-   slidesPerView:1,
-   spaceBetween:20,
-   pagination:{el:'.swiper-pagination',clickable:true},
-   navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'},
-   breakpoints:{768:{slidesPerView:2},1100:{slidesPerView:3}}
- });
- GLightbox({selector:'.glightbox'});
+  if (nav && navToggle) {
+    navToggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+    });
+
+    // Fermer le menu quand on clique sur un lien (sur mobile)
+    const navLinks = nav.querySelectorAll("a");
+    navLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        if (nav.classList.contains("active")) {
+          nav.classList.remove("active");
+        }
+      });
+    });
+  }
+
+  // =========================
+  // SWIPER – CARROUSEL RÉALISATIONS
+  // =========================
+  if (typeof Swiper !== "undefined") {
+    const sliderEl = document.querySelector(".realisations-swiper");
+    if (sliderEl) {
+      new Swiper(".realisations-swiper", {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          768: { slidesPerView: 2 },
+          1100: { slidesPerView: 3 },
+        },
+      });
+    }
+  }
+
+  // =========================
+  // GLIGHTBOX – ZOOM IMAGES
+  // =========================
+  if (typeof GLightbox !== "undefined") {
+    GLightbox({
+      selector: ".glightbox",
+      touchNavigation: true,
+      loop: true,
+    });
+  }
 });
