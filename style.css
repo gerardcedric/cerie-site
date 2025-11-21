@@ -244,16 +244,16 @@ body.no-scroll {
    AVIS — CENTRAGE OK
 =========================== */
 
-.avis-buttons {
+.section-avis .avis-buttons {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  margin: 20px 0 30px;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
-.avis-buttons a {
+.section-avis .btn {
+  min-width: 180px;
   text-align: center;
 }
 
@@ -465,4 +465,5 @@ body.no-scroll {
     font-size: 15px;
   }
 }
+
 
