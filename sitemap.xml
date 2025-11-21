@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Page d’accueil -->
+  <url>
+    <loc>https://gerardcedric.github.io/cerie-site/</loc>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- Page électricien Val d’Europe -->
+  <url>
+    <loc>https://gerardcedric.github.io/cerie-site/electricien-val-europe.html</loc>
+    <priority>0.90</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Ajouter d'autres pages si tu en ajoutes -->
+  
+</urlset>
