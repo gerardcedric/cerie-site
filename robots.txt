@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gerardcedric.github.io/cerie-site/sitemap.xml
