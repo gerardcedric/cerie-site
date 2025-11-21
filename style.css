@@ -359,3 +359,110 @@ body.no-scroll {
     font-size: 26px;
   }
 }
+/* ===========================
+   ARTICLES / BLOG
+   (à utiliser avec .article-container)
+=========================== */
+
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Titres d'articles */
+.article-container h2 {
+  font-size: 26px;
+  margin-bottom: 12px;
+  margin-top: 25px;
+  color: #111;
+}
+
+.article-container h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+/* Paragraphes */
+.article-container p {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Paragraphes après titres plus d'air */
+.article-container h2 + p,
+.article-container h3 + p {
+  margin-top: 5px;
+}
+
+/* Listes */
+.article-container ul,
+.article-container ol {
+  margin: 10px 0 15px;
+  padding-left: 22px;
+}
+
+.article-container li {
+  margin-bottom: 6px;
+}
+
+/* Mots importants */
+.article-container strong {
+  font-weight: 700;
+  color: #111;
+}
+
+/* Liens dans les articles */
+.article-container a {
+  color: #0077ff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.article-container a:hover {
+  color: #005fcc;
+}
+
+/* Encadré d'information (optionnel) */
+.article-callout {
+  background: #eef5ff;
+  border-left: 4px solid #0077ff;
+  padding: 12px 14px;
+  margin: 18px 0;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Images dans les articles */
+.article-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 18px auto;
+}
+
+/* Petites adaptations mobile */
+@media (max-width: 600px) {
+  .article-container {
+    width: 100%;
+  }
+
+  .article-container h2 {
+    font-size: 22px;
+  }
+
+  .article-container h3 {
+    font-size: 18px;
+  }
+
+  .article-container p {
+    font-size: 15px;
+  }
+}
+
