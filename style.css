@@ -1,7 +1,6 @@
 /* ===========================
-   STYLES GLOBAUX
+   RESET & GLOBAL
 =========================== */
-
 * {
   margin: 0;
   padding: 0;
@@ -15,10 +14,12 @@ body {
   line-height: 1.6;
 }
 
-/* ===========================
-   CONTAINERS
-=========================== */
+/* Empêche le scroll quand le menu mobile est ouvert */
+body.no-scroll {
+  overflow: hidden;
+}
 
+/* Containers */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -30,7 +31,7 @@ body {
 =========================== */
 
 .header {
-  background: white;
+  background: #fff;
   border-bottom: 1px solid #e0e0e0;
   padding: 15px 0;
   position: sticky;
@@ -53,6 +54,7 @@ body {
 .header-logo img {
   width: 60px;
   height: auto;
+  display: block;
 }
 
 .header-title h1 {
@@ -101,31 +103,28 @@ body {
 
 .nav-toggle {
   display: none;
-  font-size: 28px;
+  font-size: 30px;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 /* ===========================
-   HERO SECTION
+   HERO
 =========================== */
 
 .hero {
   background: url("images/realisation001.jpg") center/cover no-repeat;
   color: white;
-  padding: 80px 0;
+  padding: 90px 0;
   text-align: center;
   position: relative;
 }
 
-/* Effet assombrissant pour lisibilité du texte */
 .hero::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   background: rgba(0, 0, 0, 0.45);
 }
 
@@ -133,7 +132,6 @@ body {
   position: relative;
   z-index: 2;
 }
-
 
 .hero-content h2 {
   font-size: 32px;
@@ -143,8 +141,7 @@ body {
 .hero-text {
   font-size: 18px;
   max-width: 700px;
-  margin: auto;
-  margin-bottom: 25px;
+  margin: 0 auto 25px;
 }
 
 .hero-buttons {
@@ -153,6 +150,7 @@ body {
   gap: 15px;
 }
 
+/* Buttons */
 .btn-primary,
 .btn-outline {
   padding: 12px 25px;
@@ -163,7 +161,7 @@ body {
 }
 
 .btn-primary {
-  background: white;
+  background: #fff;
   color: #0077ff;
 }
 
@@ -172,7 +170,7 @@ body {
 }
 
 .btn-outline {
-  border: 2px solid white;
+  border: 2px solid #fff;
   color: white;
 }
 
@@ -182,7 +180,7 @@ body {
 }
 
 /* ===========================
-   SECTION
+   SECTIONS
 =========================== */
 
 .section {
@@ -201,7 +199,7 @@ body {
 }
 
 /* ===========================
-   GRID CARDS
+   GRID / CARDS
 =========================== */
 
 .services-grid {
@@ -228,7 +226,7 @@ body {
 }
 
 /* ===========================
-   REALISATIONS (CARROUSEL)
+   RÉALISATIONS (SLIDER)
 =========================== */
 
 .swiper {
@@ -243,7 +241,7 @@ body {
 }
 
 /* ===========================
-   AVIS — CORRECTION ICI
+   AVIS — CENTRAGE OK
 =========================== */
 
 .avis-buttons {
@@ -267,6 +265,7 @@ body {
   border: none;
   border-radius: 12px;
   margin-top: 15px;
+  width: 100%;
 }
 
 /* ===========================
@@ -297,6 +296,7 @@ body {
   padding: 14px;
   border-radius: 8px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .contact-form button:hover {
@@ -324,21 +324,23 @@ body {
 }
 
 /* ===========================
-   RESPONSIVE MOBILE
+   RESPONSIVE
 =========================== */
 
 @media (max-width: 900px) {
+
   .nav {
     position: absolute;
     top: 80px;
     right: 0;
     background: white;
     width: 70%;
-    padding: 20px;
+    padding: 25px;
     flex-direction: column;
-    gap: 18px;
+    gap: 20px;
     display: none;
     box-shadow: -2px 4px 15px rgba(0,0,0,0.15);
+    border-radius: 0 0 0 12px;
   }
 
   .nav.active {
@@ -349,16 +351,11 @@ body {
     display: block;
   }
 
-  header {
-    padding: 10px 0;
+  .hero {
+    padding: 65px 0;
   }
 
   .hero-content h2 {
     font-size: 26px;
   }
-
-  .hero {
-    padding: 60px 0;
-  }
 }
-
