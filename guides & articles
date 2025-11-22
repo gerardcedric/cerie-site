@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YH693X2E9D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YH693X2E9D');
+  </script>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Guides & Conseils Électricité – CERIE à Lagny-sur-Marne & Val d’Europe</title>
+
+  <meta name="description" content="Guides pratiques en électricité : IRVE, dépannage, rénovation, sécurité, norme NF C 15-100, domotique. Conseils par CERIE, électricien à Lagny-sur-Marne et Val d’Europe (77).">
+
+  <!-- Tu peux adapter cette URL selon le nom de ton fichier -->
+  <link rel="canonical" href="https://gerardcedric.github.io/cerie-site/conseils-electricite.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Guides & Conseils Électricité – CERIE Électricité">
+  <meta property="og:description" content="Articles et conseils pour mieux comprendre l’électricité, la sécurité, l’IRVE et la rénovation électrique en Seine-et-Marne.">
+  <meta property="og:image" content="images/realisation001.jpg">
+  <meta property="og:url" content="https://gerardcedric.github.io/cerie-site/conseils-electricite.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180.png">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+  <!-- JSON-LD LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "@id": "https://gerardcedric.github.io/cerie-site/#electricien",
+    "name": "CERIE",
+    "image": "https://gerardcedric.github.io/cerie-site/images/logo_cerie.png",
+    "url": "https://gerardcedric.github.io/cerie-site/",
+    "logo": "https://gerardcedric.github.io/cerie-site/images/logo_cerie.png",
+    "telephone": "+33621531432",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "49 rue Pierre Sémard",
+      "addressLocality": "Lagny-sur-Marne",
+      "postalCode": "77400",
+      "addressRegion": "Île-de-France",
+      "addressCountry": "FR"
+    },
+    "areaServed": [
+      "Lagny-sur-Marne",
+      "Val d'Europe",
+      "Serris",
+      "Chessy",
+      "Montévrain",
+      "Magny-le-Hongre",
+      "Coupvray",
+      "Bailly-Romainvilliers",
+      "Marne-la-Vallée",
+      "Seine-et-Marne"
+    ],
+    "serviceType": [
+      "Installation électrique",
+      "Rénovation électrique",
+      "Dépannage électrique urgent",
+      "Installation IRVE",
+      "Domotique",
+      "Mise en conformité NF C 15-100"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container header-flex">
+    <div class="header-logo">
+      <img src="images/logo_cerie.png" alt="Logo CERIE Électricité">
+      <div class="header-title">
+        <h1>CERIE Électricité Général</h1>
+        <p>Guides & conseils en électricité – Seine-et-Marne</p>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#apropos">À propos</a>
+      <a href="index.html#realisations">Réalisations</a>
+      <a href="index.html#avis">Avis</a>
+      <a href="electricien-val-europe.html">Val d'Europe</a>
+      <!-- Si tu veux, tu peux aussi mettre un lien direct vers cette page dans le menu -->
+      <a href="conseils-electricite.html" class="btn-nav">Conseils</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-content">
+    <h2>Guides & conseils en électricité – CERIE</h2>
+    <p class="hero-text">
+      Comprendre votre installation électrique, la sécurité, la norme NF C 15-100,
+      la recharge IRVE, la domotique et la rénovation.  
+      Des conseils pratiques rédigés par un électricien professionnel à Lagny-sur-Marne & Val d’Europe.
+    </p>
+    <div class="hero-buttons">
+      <a href="index.html#contact" class="btn-primary">Demander un devis</a>
+      <a href="#articles" class="btn-outline">Voir les articles</a>
+    </div>
+  </div>
+</section>
+
+<main id="articles">
+
+  <!-- ARTICLE 1 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Pourquoi installer une borne de recharge IRVE chez soi à Val d’Europe ?</h2>
+
+      <p>
+        Avec l’augmentation rapide du nombre de véhicules électriques, installer une
+        <strong>borne IRVE</strong> chez soi est devenu un véritable confort au quotidien.
+        À Val d’Europe, Serris, Chessy, Montévrain et dans tout le 77, de plus en plus de particuliers
+        choisissent une solution de recharge fiable et sécurisée plutôt que la simple prise domestique.
+      </p>
+
+      <h3>Recharge plus rapide et sécurisée</h3>
+      <p>
+        Une borne IRVE permet une recharge beaucoup plus rapide qu’une prise classique,
+        tout en garantissant une sécurité optimale. Elle protège l’installation contre la surchauffe,
+        les surtensions et les risques électriques. Les installations IRVE de CERIE sont conformes
+        aux normes <strong>NF C 15-100</strong> et intègrent un dispositif de protection différentiel adapté.
+      </p>
+
+      <h3>Économies d’énergie et confort d’utilisation</h3>
+      <p>
+        Avec une borne IRVE, vous pouvez programmer vos recharges pendant les heures creuses,
+        suivre la consommation énergétique et profiter d’un rendement optimal. La borne assure aussi une
+        recharge plus stable, ce qui augmente la durée de vie de votre batterie.
+      </p>
+
+      <h3>Compatible avec tous les véhicules électriques</h3>
+      <p>
+        Que vous rouliez en Tesla, Renault Zoé, Peugeot e-208, MG4, Audi e-tron ou BMW i4, une borne IRVE
+        permet une charge complète fiable et rapide. CERIE installe des bornes monophasées ou
+        triphasées en fonction de la puissance souhaitée.
+      </p>
+
+      <h3>Installation professionnelle en Seine-et-Marne (77)</h3>
+      <p>
+        Faire appel à un électricien qualifié IRVE garantit une installation conforme, durable et sécurisée.
+        CERIE intervient dans tout Val d’Europe pour dimensionner, installer et mettre en service
+        votre borne IRVE.
+      </p>
+
+      <p><strong>Demandez votre devis IRVE à Val d’Europe auprès de CERIE.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 2 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>5 signes qu’une installation électrique devient dangereuse</h2>
+
+      <p>
+        Une installation électrique vieillissante peut devenir dangereuse sans prévenir.
+        À Lagny-sur-Marne, Val d’Europe, Serris et dans tout le 77, CERIE intervient régulièrement
+        pour sécuriser des installations devenues obsolètes. Voici les 5 signes les plus fréquents.
+      </p>
+
+      <h3>1. Le disjoncteur saute régulièrement</h3>
+      <p>
+        Si votre disjoncteur se déclenche souvent, c’est le signe d’une surcharge, d’un court-circuit
+        ou d’un défaut d’isolation. Ce problème nécessite une inspection rapide.
+      </p>
+
+      <h3>2. Odeurs de chaud ou prises qui chauffent</h3>
+      <p>
+        Une odeur de brûlé, un chauffe inhabituel ou des étincelles lors du branchement indiquent un risque sérieux.
+        Il faut couper l’alimentation et contacter un électricien immédiatement.
+      </p>
+
+      <h3>3. Appareils qui grillent souvent</h3>
+      <p>
+        Si vos appareils tombent en panne régulièrement, cela peut provenir de micro-coupures ou de surtensions
+        liées à une installation instable ou mal protégée.
+      </p>
+
+      <h3>4. Tableau électrique ancien</h3>
+      <p>
+        Un tableau équipé de fusibles ou sans dispositifs différentiels n’est plus conforme et représente un risque
+        d’incendie domestique. Un remplacement est fortement recommandé.
+      </p>
+
+      <h3>5. Absence de prise de terre</h3>
+      <p>
+        Une installation sans terre est dangereuse, en particulier pour les appareils récents.
+        Une mise en sécurité est indispensable pour protéger les personnes et les biens.
+      </p>
+
+      <p><strong>Pour votre sécurité, CERIE peut réaliser un diagnostic complet de votre installation.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 3 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Comment savoir si votre tableau électrique doit être remplacé ?</h2>
+
+      <p>
+        Le tableau électrique est le cœur de votre installation. Avec les nouvelles normes,
+        il est essentiel de disposer d’un tableau moderne et sécurisé. À Val d’Europe, Serris, Chessy
+        et en Seine-et-Marne, CERIE remplace régulièrement des tableaux anciens.
+        Voici les signes qu’il est temps d’en changer.
+      </p>
+
+      <h3>Un tableau à fusibles</h3>
+      <p>
+        Un tableau avec fusibles n’est plus conforme aux normes actuelles.
+        Il manque de protections différentielles indispensables pour éviter les accidents domestiques.
+      </p>
+
+      <h3>Disjoncteur qui saute dès qu’on branche un appareil</h3>
+      <p>
+        Si votre disjoncteur se déclenche dès qu’un nouvel appareil est utilisé,
+        c’est que les circuits sont mal dimensionnés ou trop chargés. Un nouveau tableau moderne est nécessaire.
+      </p>
+
+      <h3>Absence d’interrupteurs différentiels 30 mA</h3>
+      <p>
+        Ces protections sauvent des vies. Toutes les installations modernes doivent en être équipées,
+        notamment pour la protection des personnes dans les pièces d’eau.
+      </p>
+
+      <h3>Matériel ancien ou non identifié</h3>
+      <p>
+        Si les fils sont mal organisés, dénudés, oxydés, ou si les repérages sont absents, il est urgent
+        de remplacer le tableau par une installation propre et sécurisée.
+      </p>
+
+      <p><strong>CERIE réalise le remplacement complet de votre tableau électrique en respectant les normes NF C 15-100.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 4 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Pourquoi rénover une installation électrique ancienne ?</h2>
+
+      <p>
+        Une installation électrique ancienne peut représenter un risque pour votre habitation.
+        À Lagny-sur-Marne, Val d’Europe et tout le 77, CERIE Électricité rénove régulièrement des installations
+        datant parfois de plus de 30 ans.
+      </p>
+
+      <h3>Plus de sécurité au quotidien</h3>
+      <p>
+        Les vieilles installations ne disposent pas toujours de dispositifs différentiels modernes
+        et peuvent comporter des conducteurs en mauvais état. Résultat : risque de choc électrique ou d’incendie.
+      </p>
+
+      <h3>Confort moderne et praticité</h3>
+      <p>
+        Les habitations sont aujourd’hui beaucoup plus équipées qu’avant : électroménager, multimédia,
+        chauffage électrique, domotique… Une rénovation permet d’ajouter des prises, de moderniser l’éclairage
+        et d’éviter les surcharges.
+      </p>
+
+      <h3>Respect des normes NF C 15-100</h3>
+      <p>
+        La rénovation garantit la conformité aux normes actuelles et valorise votre logement lors d’une vente
+        ou d’une mise en location. C’est un véritable atout pour vos futurs projets immobiliers.
+      </p>
+
+      <p><strong>Demandez votre audit électrique complet avec CERIE pour une rénovation en toute sécurité.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 5 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Dépannage électrique : que faire avant d’appeler un électricien ?</h2>
+
+      <p>
+        Une panne électrique peut survenir à tout moment. Avant de contacter un électricien à Val d’Europe,
+        voici quelques vérifications simples qui peuvent vous faire gagner du temps.
+      </p>
+
+      <h3>1. Vérifier le disjoncteur général</h3>
+      <p>
+        Regardez si le disjoncteur principal est abaissé. Si c’est le cas, essayez de le réarmer.
+        S’il saute immédiatement à nouveau, ne forcez pas et passez à l’étape suivante.
+      </p>
+
+      <h3>2. Identifier le circuit en défaut</h3>
+      <p>
+        Si un disjoncteur divisionnaire claque systématiquement, c’est probablement un circuit ou un appareil
+        spécifique qui pose problème. Coupez ce disjoncteur et testez le reste.
+      </p>
+
+      <h3>3. Débrancher les appareils récents</h3>
+      <p>
+        Un appareil défectueux peut faire sauter une ligne entière. Débranchez les derniers appareils installés
+        (chauffage d’appoint, four, lave-linge, etc.) et testez à nouveau.
+      </p>
+
+      <h3>4. Ne jamais bricoler le tableau électrique</h3>
+      <p>
+        N’ouvrez pas les borniers du tableau si vous ne maîtrisez pas l’électricité.
+        En cas de doute ou de panne persistante, coupez l’alimentation et contactez un professionnel.
+      </p>
+
+      <p><strong>CERIE intervient rapidement à Val d’Europe et alentours pour les dépannages urgents.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 6 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Installation électrique neuve : les règles essentielles de la norme NF C 15-100</h2>
+
+      <p>
+        Lors d’une construction ou d’une rénovation complète, la norme <strong>NF C 15-100</strong>
+        impose des règles strictes pour garantir la sécurité des personnes et des biens.
+        CERIE réalise toutes les installations conformes à Val d’Europe et en Seine-et-Marne.
+      </p>
+
+      <h3>Nombre de prises minimum par pièce</h3>
+      <p>
+        La norme définit un nombre minimum de prises selon la surface et le type de pièce (salon, chambres,
+        cuisine, etc.). Cela évite l’utilisation abusive de multiprises dangereuses.
+      </p>
+
+      <h3>Circuits spécialisés</h3>
+      <p>
+        Certains appareils comme le four, la plaque de cuisson, le lave-linge, le chauffe-eau ou la borne IRVE
+        doivent disposer de leur propre circuit dédié, avec une protection adaptée au calibre.
+      </p>
+
+      <h3>Protection différentielle 30 mA</h3>
+      <p>
+        Les interrupteurs différentiels 30 mA sont obligatoires pour protéger les personnes des risques
+        d’électrocution. Ils surveillent les fuites de courant et coupent immédiatement en cas de danger.
+      </p>
+
+      <h3>Mise à la terre impeccable</h3>
+      <p>
+        Une bonne prise de terre est indispensable pour la sécurité. Elle permet d’évacuer les courants de défaut
+        et évite que les châssis métalliques ne deviennent dangereux.
+      </p>
+
+      <p><strong>Nous réalisons des installations électriques neuves conformes à la norme NF C 15-100, prêtes pour le consuel.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 7 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Quel éclairage choisir pour sa maison en 2025 ?</h2>
+
+      <p>
+        L’éclairage moderne ne se limite plus aux simples ampoules. CERIE Électricité installe à Val d’Europe
+        des solutions LED économiques, durables et esthétiques pour les maisons, appartements et commerces.
+      </p>
+
+      <h3>Éclairage LED intérieur</h3>
+      <p>
+        Spots encastrés, rubans LED, plafonniers design, appliques murales… Le LED consomme jusqu’à 80 % de moins
+        que les anciennes ampoules à incandescence, tout en offrant une lumière de meilleure qualité.
+      </p>
+
+      <h3>Éclairage extérieur</h3>
+      <p>
+        Balises de jardin, projecteurs avec détecteur de mouvement, éclairage de terrasse ou de façade :
+        un bon éclairage extérieur améliore la sécurité et met en valeur votre habitation.
+      </p>
+
+      <h3>Éclairage connecté</h3>
+      <p>
+        Avec la domotique, vous pouvez piloter votre éclairage depuis un smartphone, créer des ambiances,
+        programmer des scénarios (présence simulée, extinction automatique, etc.).
+      </p>
+
+      <p><strong>CERIE vous conseille sur l’éclairage le mieux adapté à votre logement et à votre budget.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 8 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Installation domotique : comment réussir sa maison connectée ?</h2>
+
+      <p>
+        La domotique permet de moderniser votre habitation et d’améliorer votre confort au quotidien.
+        À Val d’Europe, la demande explose dans les nouvelles constructions et les rénovations.
+      </p>
+
+      <h3>Pilotage centralisé de la maison</h3>
+      <p>
+        Éclairage, volets roulants, chauffage, alarme, vidéosurveillance : tout peut être contrôlé depuis un
+        smartphone, une tablette ou une interface murale. Cela simplifie la gestion de la maison.
+      </p>
+
+      <h3>Économies d’énergie</h3>
+      <p>
+        Grâce à la domotique, il est possible de programmer le chauffage, de couper automatiquement certains circuits,
+        de gérer l’éclairage selon la luminosité naturelle et de réduire la consommation globale.
+      </p>
+
+      <h3>Installation professionnelle recommandée</h3>
+      <p>
+        Pour être fiable et évolutive, une installation domotique doit être câblée proprement et pensée dès le départ.
+        CERIE vous accompagne dans le choix des équipements et la mise en place de solutions adaptées.
+      </p>
+
+      <p><strong>Nous concevons et installons des systèmes domotiques sur mesure à Val d’Europe et en Seine-et-Marne.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 9 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Pourquoi appeler un électricien certifié pour vos travaux ?</h2>
+
+      <p>
+        La sécurité électrique ne laisse aucune place à l’amateurisme. Faire appel à un électricien certifié comme
+        CERIE Électricité garantit un travail propre, durable et conforme aux normes en vigueur.
+      </p>
+
+      <h3>Respect des normes et de la sécurité</h3>
+      <p>
+        NF C 15-100, mise à la terre, calibre des disjoncteurs, dimensionnement des lignes : tout est pris en compte
+        pour une installation sûre. Un professionnel maîtrise ces éléments au quotidien.
+      </p>
+
+      <h3>Travail garanti</h3>
+      <p>
+        Nous offrons une garantie décennale sur nos installations, gage de sérieux et de confiance pour nos clients.
+      </p>
+
+      <h3>Diagnostic professionnel</h3>
+      <p>
+        Un électricien expérimenté détecte les défauts invisibles pour un particulier : fils sous-dimensionnés,
+        circuits mal protégés, risques de surchauffe…
+      </p>
+
+      <p><strong>Faites confiance à un professionnel expérimenté pour vos travaux d’électricité en Seine-et-Marne.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 10 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Comment bien préparer un chantier électrique ?</h2>
+
+      <p>
+        Avant de réaliser une installation ou une rénovation électrique, une préparation rigoureuse est indispensable.
+        Une bonne organisation permet d’éviter les mauvaises surprises et les surcoûts.
+      </p>
+
+      <h3>Planifier les besoins pièce par pièce</h3>
+      <p>
+        Nombre de prises, emplacements des points lumineux, circuits spécialisés, prises RJ45, alimentation IRVE,
+        domotique… Tout doit être défini en amont en fonction de votre mode de vie.
+      </p>
+
+      <h3>Analyser l’existant</h3>
+      <p>
+        En rénovation, un diagnostic électrique permet de repérer les points faibles de l’installation
+        et de définir ce qui doit être remplacé, renforcé ou simplement adapté.
+      </p>
+
+      <h3>Prévoir les normes actuelles</h3>
+      <p>
+        La norme NF C 15-100 impose des règles strictes qu’il faut intégrer dès le début du projet pour éviter
+        les modifications de dernière minute.
+      </p>
+
+      <p><strong>CERIE  vous accompagne dans la préparation et la réalisation de votre chantier électrique.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 11 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>Sécurité électrique : les obligations avant une mise en location</h2>
+
+      <p>
+        Les propriétaires bailleurs sont tenus de louer un logement sécurisé. Voici les principales obligations
+        à respecter avant de mettre un bien en location en France.
+      </p>
+
+      <h3>Diagnostic électrique obligatoire</h3>
+      <p>
+        Le diagnostic de l’installation intérieure d’électricité doit dater de moins de 6 ans pour les locations.
+        Il permet d’identifier les anomalies dangereuses et les points à corriger.
+      </p>
+
+      <h3>Conformité du tableau électrique</h3>
+      <p>
+        La présence de protections différentielles, de disjoncteurs correctement calibrés et d’une terre fonctionnelle
+        est essentielle pour la sécurité des occupants.
+      </p>
+
+      <h3>Absence de danger immédiat</h3>
+      <p>
+        Pas de câble dénudé, pas de prise cassée, pas de boîtiers ouverts, pas de bricolages dangereux.
+        En cas de doute, un électricien doit intervenir pour mettre en sécurité.
+      </p>
+
+      <p><strong>CERIE met en conformité les installations électriques pour les biens destinés à la location.</strong></p>
+    </div>
+  </section>
+
+  <!-- ARTICLE 12 -->
+  <section class="section">
+    <div class="container article-container">
+      <h2>IRVE ou prise renforcée : que choisir pour recharger son véhicule électrique ?</h2>
+
+      <p>
+        Beaucoup d’utilisateurs hésitent entre une simple prise renforcée et une borne IRVE pour recharger
+        leur véhicule électrique. Voici les principales différences pour faire le bon choix.
+      </p>
+
+      <h3>La prise renforcée</h3>
+      <p>
+        Une prise renforcée est plus robuste qu’une prise classique et permet une recharge un peu plus sécurisée,
+        mais la puissance reste limitée. Le temps de charge est long et cette solution convient surtout
+        à de petits trajets quotidiens.
+      </p>
+
+      <h3>La borne IRVE</h3>
+      <p>
+        La borne IRVE offre une puissance de charge bien supérieure, une sécurité optimale et une meilleure gestion
+        de l’énergie. Elle est idéale pour un véhicule utilisé quotidiennement ou pour plusieurs véhicules dans un foyer.
+      </p>
+
+      <h3>Quel choix à Val d’Europe ?</h3>
+      <p>
+        Pour un usage intensif ou une grande berline électrique, la borne IRVE est clairement la meilleure option.
+        Pour une petite citadine utilisée ponctuellement, la prise renforcée peut suffire, mais une étude de votre
+        besoin est recommandée.
+      </p>
+
+      <p><strong>CERIE vous conseille et installe la solution la plus adaptée à votre véhicule et à votre installation électrique.</strong></p>
+    </div>
+  </section>
+
+  <!-- Call to action final -->
+  <section class="section">
+    <div class="container">
+      <h2>Besoin d’un électricien à Lagny-sur-Marne ou Val d’Europe ?</h2>
+      <p>
+        Vous avez un projet d’installation, de rénovation, de dépannage ou d’IRVE ?
+        CERIE vous accompagne dans tout le 77 avec des prestations professionnelles et durables.
+      </p>
+      <a href="index.html#contact" class="btn-primary">Demander un devis</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>CERIE – Entreprise d'électricité générale - Électricien à Lagny-sur-Marne, Val d’Europe & Seine-et-Marne.</p>
+    <p>SIRET : 922 843 796 00017 — SASU au capital de 1000 € — Directeur : Cédric GERARD</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>
