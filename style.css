@@ -515,13 +515,6 @@ img[src$="logo_cerie.png"] {
   margin: 0 auto 1.5rem; /* centre le logo et ajoute un peu d'espace en bas */
 }
 
-/* Option : encore plus gros sur grand écran */
-@media (min-width: 900px) {
-  img[src$="logo_cerie.png"] {
-    width: 320px;
-  }
-}
-
 
 
 
