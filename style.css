@@ -465,5 +465,47 @@ body.no-scroll {
     font-size: 15px;
   }
 }
+/* ====== Boutons Avis Google ====== */
+
+.avis-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.btn-avis {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid #0056ff;
+  background-color: #0056ff;
+  color: #ffffff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+              background-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-avis-outline {
+  background-color: transparent;
+  color: #0056ff;
+}
+
+.btn-avis:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-avis-outline:hover {
+  background-color: #0056ff;
+  color: #ffffff;
+}
+
+.avis-texte {
+  text-align: center;
+}
+
 
 
