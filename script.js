@@ -8,10 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // MENU MOBILE
   // =========================
 
-  const nav = document.getElementById("nav");
-  const navToggle = document.getElementById("navToggle");
-
-  if (nav && navToggle) {
+if (nav && navToggle) {
+  navToggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+    navToggle.classList.toggle("open"); // <-- pour animer les barres
+  });
 
     // Ouvrir / Fermer le menu
     navToggle.addEventListener("click", () => {
@@ -75,3 +76,4 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
