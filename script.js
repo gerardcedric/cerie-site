@@ -2,12 +2,14 @@
 // SCRIPT GLOBAL – CERIE ÉLECTRICITÉ
 // =========================
 
+document.addEventListener("DOMContentLoaded", function () {
+  const nav = document.getElementById("nav");
+  const navToggle = document.getElementById("navToggle");
 if (nav && navToggle) {
   navToggle.addEventListener("click", () => {
     nav.classList.toggle("active");
     navToggle.classList.toggle("open"); // <-- pour animer les barres
   });
-
   // Fermer le menu quand on clique sur un lien (sur mobile)
   const navLinks = nav.querySelectorAll("a");
   navLinks.forEach(link => {
@@ -59,5 +61,6 @@ if (nav && navToggle) {
   }
 
 });
+
 
 
