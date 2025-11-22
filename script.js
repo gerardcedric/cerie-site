@@ -2,40 +2,23 @@
 // SCRIPT GLOBAL – CERIE ÉLECTRICITÉ
 // =========================
 
-document.addEventListener("DOMContentLoaded", () => {
-
-  // =========================
-  // MENU MOBILE
-  // =========================
-
 if (nav && navToggle) {
   navToggle.addEventListener("click", () => {
     nav.classList.toggle("active");
     navToggle.classList.toggle("open"); // <-- pour animer les barres
   });
 
-    // Ouvrir / Fermer le menu
-    navToggle.addEventListener("click", () => {
-      nav.classList.toggle("active");
-      document.body.classList.toggle("no-scroll", nav.classList.contains("active"));
-    });
-
-    // Ferme le menu quand on clique sur un lien
-    nav.querySelectorAll("a").forEach(link => {
-      link.addEventListener("click", () => {
+  // Fermer le menu quand on clique sur un lien (sur mobile)
+  const navLinks = nav.querySelectorAll("a");
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      if (nav.classList.contains("active")) {
         nav.classList.remove("active");
-        document.body.classList.remove("no-scroll");
-      });
-    });
-
-    // Fermer le menu si on clique à l’extérieur
-    document.addEventListener("click", (e) => {
-      if (!nav.contains(e.target) && !navToggle.contains(e.target)) {
-        nav.classList.remove("active");
-        document.body.classList.remove("no-scroll");
+        navToggle.classList.remove("open"); // <-- on referme aussi l’icône
       }
     });
-  }
+  });
+}
 
   // =========================
   // SWIPER – CARROUSEL RÉALISATIONS
@@ -76,4 +59,5 @@ if (nav && navToggle) {
   }
 
 });
+
 
