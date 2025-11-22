@@ -506,14 +506,7 @@ body.no-scroll {
 .avis-texte {
   text-align: center;
 }
-/* ===== Logo CERIE plus gros ===== */
 
-img[src$="logo_cerie.png"] {
-  width: 260px;      /* taille du logo (augmente ou diminue cette valeur) */
-  height: auto;
-  display: block;
-  margin: 0 auto 1.5rem; /* centre le logo et ajoute un peu d'espace en bas */
-}
 
 
 
