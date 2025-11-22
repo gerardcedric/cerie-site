@@ -52,10 +52,11 @@ body.no-scroll {
 }
 
 .header-logo img {
-  width: 60px;
+  width: 42px;      /* taille plus petite et plus classe */
   height: auto;
   display: block;
 }
+
 
 .header-title h1 {
   font-size: 22px;
@@ -327,7 +328,18 @@ body.no-scroll {
    RESPONSIVE
 =========================== */
 
-@media (max-width: 900px) {
+  .header-logo img {
+    width: 36px;   /* encore un peu plus petit sur mobile */
+  }
+
+  .header-title h1 {
+    font-size: 18px;
+  }
+
+  .header-title p {
+    font-size: 12px;
+  }
+}
 
   .nav {
     position: absolute;
@@ -506,6 +518,7 @@ body.no-scroll {
 .avis-texte {
   text-align: center;
 }
+
 
 
 
