@@ -347,12 +347,11 @@ body.no-scroll {
     right: 0;
     background: white;
     width: 70%;
-    padding: 25px;
+    padding: 20px;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
     display: none;
     box-shadow: -2px 4px 15px rgba(0,0,0,0.15);
-    border-radius: 0 0 0 12px;
   }
 
   .nav.active {
@@ -363,12 +362,35 @@ body.no-scroll {
     display: block;
   }
 
+  header {
+    padding: 10px 0;
+  }
+
+  /* tes réglages de logo + hero que tu as déjà, tu peux les laisser */
+  .header-logo img {
+    width: 36px;
+  }
+
+  .header-title h1 {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .header-title p {
+    font-size: 12px;
+  }
+
   .hero {
-    padding: 65px 0;
+    padding: 50px 0;
   }
 
   .hero-content h2 {
-    font-size: 26px;
+    font-size: 22px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+    padding: 0 10px;
   }
 }
 /* ===========================
@@ -518,6 +540,7 @@ body.no-scroll {
 .avis-texte {
   text-align: center;
 }
+
 
 
 
