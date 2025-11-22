@@ -103,11 +103,49 @@ body.no-scroll {
 }
 
 .nav-toggle {
-  display: none;
-  font-size: 30px;
-  background: none;
+  display: none;           /* visible seulement en mobile (via @media) */
+  width: 40px;
+  height: 32px;
   border: none;
+  background: transparent;
+  position: relative;
   cursor: pointer;
+}
+
+/* Les 3 barres */
+.nav-toggle span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 2px;
+  background: #222;
+  transition: transform 0.25s ease, opacity 0.25s ease, top 0.25s ease, bottom 0.25s ease;
+}
+
+.nav-toggle span:nth-child(1) {
+  top: 6px;
+}
+
+.nav-toggle span:nth-child(2) {
+  top: 14px;
+}
+
+.nav-toggle span:nth-child(3) {
+  top: 22px;
+}
+
+/* Animation en croix quand le menu est ouvert (optionnel mais stylé 😎) */
+.nav-toggle.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.nav-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 /* ===========================
@@ -518,6 +556,7 @@ body.no-scroll {
 .avis-texte {
   text-align: center;
 }
+
 
 
 
