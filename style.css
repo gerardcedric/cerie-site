@@ -340,7 +340,7 @@ body.no-scroll {
     font-size: 12px;
   }
 }
-
+@media (max-width: 900px) {
   .nav {
     position: absolute;
     top: 80px;
@@ -518,6 +518,7 @@ body.no-scroll {
 .avis-texte {
   text-align: center;
 }
+
 
 
 
