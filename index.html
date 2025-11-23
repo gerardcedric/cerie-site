@@ -55,18 +55,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 
   <!-- JSON-LD LocalBusiness SEO ULTRA COMPLET -->
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Electrician",
+  "@type": ["Electrician", "LocalBusiness"],
   "@id": "https://gerardcedric.github.io/cerie-site/#electricien",
-  "name": "CERIE",
+  "name": "CERIE Électricité Général",
+  "description": "CERIE Électricité Général est un électricien basé à Lagny-sur-Marne, intervenant à Val d’Europe, Serris, Chessy, Magny-le-Hongre, Montévrain, Bussy-Saint-Georges, Crécy-la-Chapelle et en Seine-et-Marne (77) pour l’installation, la rénovation, le dépannage électrique, la domotique et les bornes IRVE.",
   "image": "https://gerardcedric.github.io/cerie-site/images/logo_cerie.png",
-  "url": "https://gerardcedric.github.io/cerie-site/",
   "logo": "https://gerardcedric.github.io/cerie-site/images/logo_cerie.png",
-  
+  "url": "https://gerardcedric.github.io/cerie-site/",
+  "telephone": "+33 6 21 53 14 32",
   "priceRange": "€€",
-  "telephone": "+33621531432",
 
   "address": {
     "@type": "PostalAddress",
@@ -79,20 +79,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "48.879150",
-    "longitude": "2.713790"
+    "latitude": 48.879150,
+    "longitude": 2.713790
   },
 
-  "hasMap": "https://www.google.com/maps?q=CERIE+Lagny-sur-Marne",
+  "hasMap": "https://www.google.com/maps?cid=9240628409483757191",
 
-  "openingHoursSpecification": [{
+  "openingHoursSpecification": [
+    {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
       ],
       "opens": "08:00",
       "closes": "18:00"
-  }],
+    }
+  ],
 
   "sameAs": [
     "https://www.google.com/maps?cid=9240628409483757191"
@@ -117,21 +123,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "Dépannage électrique urgent",
     "Remise aux normes NF C 15-100",
     "Installation de tableau électrique",
-    "Installation de prises et éclairage",
-    "Installation IRVE (borne de recharge électrique)",
+    "Installation de prises et d’éclairage",
+    "Installation IRVE (borne de recharge véhicule électrique)",
     "Domotique et automatisation",
-    "Recherche de panne"
+    "Recherche de panne électrique"
   ],
 
-  "servesCuisine": false,
-  
+  "knowsAbout": [
+    "NF C 15-100",
+    "tableau électrique",
+    "diagnostic électrique",
+    "borne de recharge IRVE",
+    "domotique",
+    "dépannage électrique"
+  ],
+
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+33 6 21 53 14 32",
+    "contactType": "customer service",
+    "areaServed": "FR",
+    "availableLanguage": "fr"
+  },
+
   "potentialAction": {
-    "@type": "Action",
-    "name": "Demander un devis",
-    "url": "https://gerardcedric.github.io/cerie-site/#contact"
+    "@type": "ContactAction",
+    "name": "Demander un devis d’électricité",
+    "target": "https://gerardcedric.github.io/cerie-site/#contact"
   }
 }
 </script>
+
 </head>
 
 <body>
@@ -440,6 +462,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </body>
 </html>
+
 
 
 
