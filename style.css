@@ -578,13 +578,42 @@ body {
   cursor: pointer;
 }
 
+/* ===== Espacement texte / boutons ===== */
 
+/* Espace sous les phrases juste avant les boutons */
+.hero-text,
+.section p,
+.section .section-sub {
+  margin-bottom: 1.2rem;
+}
 
+/* Espace au-dessus des boutons pour éviter qu'ils collent/chevauchent le texte */
+.hero-buttons,
+.section .btn-primary,
+.section .btn-outline {
+  margin-top: 0.8rem;
+}
 
+/* On s'assure que les boutons ne sont pas en position absolue */
+.btn-primary,
+.btn-outline {
+  position: static;
+  display: inline-block;
+}
 
+/* Sur mobile : les boutons passent bien à la ligne et ne chevauchent rien */
+@media (max-width: 768px) {
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
 
-
-
+  .hero-buttons a {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
 
 
 
